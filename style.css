@@ -75,29 +75,27 @@ p {
 }
 
 .menu {
-    list-style: none;
-    font-family: fantasy;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
+
+
 }
 
 .links {
-    float: left;
-    color: blue;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: px;
-    padding-bottom: 5px;
-    font-family: cursive;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
     font-size: 20px;
 }
 
 .links:hover {
-    background-color: red;
-
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html {
@@ -136,4 +134,28 @@ img:over {
     width: 100%;
     height: 800px;
     background-color: cadetblue;
+}
+
+#contact {
+    background: red;
+}
+
+#caontact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
 }
